@@ -1,18 +1,9 @@
-daemon off;
+server {
+    listen <%= ENV["PORT"] %>;  # Heroku가 할당한 포트
+    root public;               # 정적 파일 위치 (실제 경로 확인 필수)
+    index index.html;          # 기본 파일
 
-events {
-    worker_connections 1024;
-}
-
-http {
-    include mime.types;
-    server {
-        listen #{ENV['PORT']};
-        server_name _;
-        root /app;
-        index index.html;
-        location / {
-            try_files $uri $uri/ /index.html;
-        }
+    location / {
+        try_files $uri $uri/ =404;
     }
 }
