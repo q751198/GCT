@@ -1,7 +1,13 @@
 #!/bin/sh
 
-# Render nginx.conf.erb to nginx.conf using 'erb' command
+# Debugging: 포트 출력 (확인용)
+echo "Using PORT: $PORT"
+
+# Render nginx.conf.erb to nginx.conf
 erb config/nginx.conf.erb > config/nginx.conf
 
-# Start NGINX using the rendered config file
+# Debugging: 렌더링된 파일 확인
+cat config/nginx.conf
+
+# Start NGINX using the rendered config
 nginx -g "daemon off;" -c config/nginx.conf
