@@ -1,2 +1,7 @@
 #!/bin/sh
-nginx -g "daemon off;" -c config/nginx.conf.erb
+
+# Render nginx.conf.erb to nginx.conf using 'erb' command
+erb config/nginx.conf.erb > config/nginx.conf
+
+# Start NGINX using the rendered config file
+nginx -g "daemon off;" -c config/nginx.conf
