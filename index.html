@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>GoldenCat</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        .moving-bg {
+            display: flex;
+            overflow: hidden; 
+            white-space: nowrap; 
+            position: relative;
+        }
+
+        .marquee-block {
+            display: inline-block; 
+            animation: marquee 10s linear infinite; 
+            margin-right: 20px; 
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0); 
+            }
+            100% {
+                transform: translateX(-100%); 
+            }
+        }
+
+        .moving-bg {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .moving-bg .marquee-block:nth-child(n+1) {
+            animation-delay: 0s;
+        }
+
+    </style>
+
+</head>
+
+<body class="light-version">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="dream-load"></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="banner">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><span><img id="navbar-logo" draggable="false" src="img/core-img/logo_text.png" alt="logo" style="height: 60px; width: auto;"></span></span> </a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cat">GoldenCat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#game">Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#roadmap">Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Tokenomics</a>
+                    </li>
+                    <li class="lh-55px"><a href="https://golden-cat.gitbook.io/golden-cat" class="btn copy-btn v2 ml-50" target="_blank">Whitepaper</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Welcome Area Start ##### -->
+    <section class="hero-section de-3 section-padding" id="home">
+        <!-- Hero Content -->
+        <div class="hero-section-content">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Welcome Content -->
+                    <div class="col-12 col-lg-6 col-md-12">
+                        <div class="welcome-content">
+                            <h1 class="gradient-t green fadeInUp" data-wow-delay="0.2s">Golden Cat Token</h1>
+                            <p class="w-text fadeInUp" data-wow-delay="0.3s">Empowering conservation efforts through blockchain technology and gaming innovation. Join the movement to protect endangered species while enjoying rewarding gameplay.</p>
+                            <div class="d-inline-block">
+                                <a href="https://golden-cat.gitbook.io/golden-cat" class="btn copy-btn v2 mt-15 fadeInUp" data-wow-delay="0.4s">Whitepaper</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hedo-wrapper v2 floating-anim mt-50">
+                            <img src="img/core-img/about.png" alt="Golden Cat Coin">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Welcome Area End ##### -->
+
+    <div class="clearfix"></div>
+
+    <div class="moving-bg">
+        <div class="marquee-block">
+            <img src="img/core-img/globe.png" alt="Golden Cat Globe">
+            <p class="w-text">Golden</p>
+        </div>
+        <div class="marquee-block">
+            <img src="img/core-img/globe.png" alt="Golden Cat Globe">
+            <p class="w-text">Cat</p>
+        </div>
+        <div class="marquee-block">
+            <img src="img/core-img/globe.png" alt="Golden Cat Globe">
+            <p class="w-text">Token</p>
+        </div>
+        <div class="marquee-block">
+            <img src="img/core-img/globe.png" alt="Golden Cat Globe">
+            <p class="w-text">Save</p>
+        </div>
+        <div class="marquee-block">
+            <img src="img/core-img/globe.png" alt="Golden Cat Globe">
+            <p class="w-text">Wildlife</p>
+        </div>
+        <div class="marquee-block">
+            <img src="img/core-img/globe.png" alt="Golden Cat Globe">
+            <p class="w-text">Play</p>
+        </div>
+        <div class="marquee-block">
+            <img src="img/core-img/globe.png" alt="Golden Cat Globe">
+            <p class="w-text">Earn</p>
+        </div>
+        <div class="marquee-block">
+            <img src="img/core-img/globe.png" alt="Golden Cat Globe">
+            <p class="w-text">Protect</p>
+        </div>
+    </div>
+
+    <!-- ##### Asiatic Golden Cat Area Start ##### -->
+    <section class="section-padding-100 about-bg" id="cat">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 offset-lg-0 col-md-12 no-padding-left">
+                    <div class="welcome-meter">
+                        <img draggable="false" class="comp-img floating-anim" src="img/core-img/discover.png" alt="Asiatic Golden Cat">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 offset-lg-0 mt-s">
+                    <div class="who-we-contant wavy-border">
+                        <div class="dream-dots text-left fadeInUp" data-wow-delay="0.2s">
+                            <span class="gradient-text">Discover the Asiatic Golden Cat</span>
+                        </div>
+                        <h4 class="fadeInUp" data-wow-delay="0.3s">Asiatic Golden Cat</h4>
+                        <p class="fadeInUp" data-wow-delay="0.4s">Golden Cat Token connects gaming and environmental conservation. This unique approach offers a fun and impactful way to protect endangered species.</p>
+                        <p class="fadeInUp" data-wow-delay="0.5s">The Asiatic Golden Cat, native to Southeast Asia's forests, faces significant threats to its survival. Our project is designed to protect this magnificent creature while empowering users to participate in conservation efforts.</p>
+                        <a class="btn copy-btn v2 mt-15 fadeInUp" data-wow-delay="0.6s" href="https://golden-cat.gitbook.io/golden-cat/vision-and-mission">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Asiatic Golden Cat Area End ##### -->
+
+    <section class="darky how section-padding-100-50 dotted-bg" id="game">
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+                
+                <div class="dream-dots justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                    <span class="gradient-t green">Our Games</span>
+                </div>
+                <h2 class="wow fadeInUp" data-wow-delay="0.3s">Explore Our Games</h2>
+                <p class="wow fadeInUp" data-wow-delay="0.4s">Discover how our games connect fun with meaningful contributions to environmental conservation.</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Game 1 -->
+                    <div class="service_single_content box-shadow text-center mb-100 wow fadeInUp" data-wow-delay="0.2s">
+                        <img draggable="false" src="img/icons/rescue.png" class="white-icon" alt="Rescue the Trapped Cat">
+                        <p>Click to free the Asiatic Golden Cat from traps and earn Golden Cat Tokens as rewards.</p>
+                        <!-- Icon -->
+                        <div class="service_icon" style="height: 500px; margin-top: 10px; display: flex; justify-content: center; align-items: center;">
+                            <img draggable="false" style=" transform: none !important; display: block; height: 95%; width: auto;" src="img/icons/game1.png" class="white-icon" alt="Game 2 Icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Game 2 -->
+                    <div class="service_single_content box-shadow text-center mb-100 wow fadeInUp" data-wow-delay="0.3s">
+                        <h6 style="margin-top: 45.67px; margin-bottom: 50px;">Wildlife Adventures</h6>
+                        <p>Embark on adventures to save habitats, protect species, and restore ecosystems.</p>
+                        <!-- Icon -->
+                        <div class="service_icon" style="height: 500px; margin-top: 10px; display: flex; justify-content: center; align-items: center;">
+                            <img draggable="false" style=" transform: none !important; display: block; height: 95%; width: auto;" src="img/icons/cs.png" class="white-icon" alt="Game 2 Icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Game 3 -->
+                    <div class="service_single_content box-shadow text-center mb-100 wow fadeInUp" data-wow-delay="0.4s">
+                        <h6 style="margin-top: 45.67px; margin-bottom: 50px;">Habitat Builder</h6>
+                        <p>Rebuild the Asiatic Golden Cat's habitat by collecting resources and defending it from threats.</p>
+                        <!-- Icon -->
+                        <div class="service_icon" style="height: 500px; margin-top: 10px; display: flex; justify-content: center; align-items: center;">
+                            <img draggable="false" style=" transform: none !important; display: block; height: 95%; width: auto;" src="img/icons/cs.png" class="white-icon" alt="Game 2 Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <div class="section-padding-100-70 about-bg relative">
+        <div class="container">
+            <div class="section-heading text-center">
+                <div class="dream-dots justify-content-center fadeInUp" data-wow-delay="0.2s">
+                    <span class="gradient-t green">Community and Engagement</span>
+                </div>
+                <h2 class="fadeInUp" data-wow-delay="0.3s">Join the Golden Cat Community</h2>
+                <p class="fadeInUp" data-wow-delay="0.4s">Golden Cat Token is a space where users can connect, participate, and make a real impact through open communication and collaboration.</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="who-we-contant">
+                        <h4>1. Building a Community</h4>
+                        <ul>
+                            <li>Connect via Telegram, Discord, and Twitter for collaboration.</li>
+                            <li>Join regular events like tournaments and AMA sessions.</li>
+                            <li>Participate in special in-game events with extra rewards.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="who-we-contant">
+                        <h4>2. User Participation</h4>
+                        <ul>
+                            <li>Create and share content to contribute to the ecosystem.</li>
+                            <li>Compete on leaderboards and earn rewards for achievements.</li>
+                            <li>Stand out with innovative content and gain recognition.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center mt-4">
+                <div class="col-lg-6 col-md-12">
+                    <div class="who-we-contant">
+                        <h4>3. Global Engagement</h4>
+                        <ul>
+                            <li>Support conservation efforts with ecosystem revenue.</li>
+                            <li>Learn about biodiversity through engaging content.</li>
+                            <li>Join global initiatives to protect the environment.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="who-we-contant">
+                        <h4>4. Community Rewards</h4>
+                        <ul>
+                            <li>Earn tokens for gaming, events, and content creation.</li>
+                            <li>Access exclusive items and special privileges as an active user.</li>
+                            <li>Invite friends and expand the ecosystem together.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <!-- ##### Token Info Start ##### -->
+    <div class="section-padding-100 relative counter-bg">
+        <div class="container">
+            <div class="section-heading text-center">
+                <div class="dream-dots justify-content-center fadeInUp" data-wow-delay="0.2s">
+                    <span class="gradient-t green">Golden Cat Token Economy</span>
+                </div>
+                <h2 class="fadeInUp" data-wow-delay="0.3s">The Foundation of Our Ecosystem</h2>
+                <p class="fadeInUp" data-wow-delay="0.4s">Golden Cat Token connects all activities in our ecosystem, incentivizing participation while supporting wildlife conservation.</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 col-md-12">
+                    <div class="who-we-contant white-section has-shadow">
+                        <h4 class="fadeInUp" data-wow-delay="0.3s">Core Functions of the Token</h4>
+                        <p class="fadeInUp" data-wow-delay="0.4s">
+                            Golden Cat Token serves as the foundation of the ecosystem, offering rewards for gameplay, enabling in-game transactions, and promoting long-term engagement through staking.
+                        </p>
+                        <ul class="fadeInUp" data-wow-delay="0.5s">
+                            <li><b>Rewards Mechanism:</b> Earn tokens by completing missions, breaking traps, and climbing leaderboards.</li>
+                            <li><b>Transactions and Purchases:</b> Use tokens to buy items, unlock features, and trade with other players.</li>
+                            <li><b>Staking and Rewards:</b> Stake tokens to earn additional rewards and support ecosystem growth.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 offset-lg-1 col-md-12 mt-s">
+                    <div class="creamy-section">
+                        <h4 class="fadeInUp" data-wow-delay="0.3s">Sustainable Ecosystem Design</h4>
+                        <p class="fadeInUp" data-wow-delay="0.4s">
+                            The Golden Cat Token Economy ensures sustainable growth and long-term viability while supporting conservation efforts.
+                        </p>
+                        <ul class="fadeInUp" data-wow-delay="0.5s">
+                            <li><b>Earning Tokens:</b> Players earn rewards for their efforts in games.</li>
+                            <li><b>Future Utility:</b> Planned updates will allow transactions and staking for additional benefits.</li>
+                            <li><b>Conservation Contribution:</b> Revenue funds conservation initiatives transparently.</li>
+                            <li><b>Token Circulation:</b> A balanced cycle maintains value as the ecosystem grows.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <section class="roadmap section-padding-100" id="roadmap">
+        <div class="section-heading text-center">
+            
+            <div class="dream-dots justify-content-center fadeInUp" data-wow-delay="0.2s">
+                <span class="gradient-text green">Token Roadmap</span>
+            </div>
+            <h2 class="fadeInUp" data-wow-delay="0.3s">Our Token Roadmap</h2>
+            <p class="fadeInUp" data-wow-delay="0.4s">Embark on a journey with us as we pave the way to revolutionize gaming and conservation. 
+            Our roadmap outlines the milestones that will lead to the creation of a sustainable ecosystem, 
+            empowering players and protecting endangered species through innovation and community-driven efforts.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline">
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">Rescue the Golden Cat</span>
+                                        <span class="year gradient-t green">PHASE #1</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="arrowo"></span>
+                                <h5 class="title">Launching "Rescue the Golden Cat"</h5>
+                                <p class="description text-light-gray">
+                                    In Phase 1, we are excited to launch our flagship Telegram-based game, 
+                                    <b>"Rescue the Golden Cat"</b>. Players will engage in an immersive experience where they 
+                                    free the Asiatic Golden Cat from traps while earning Golden Cat Tokens as rewards. 
+                                    This game not only delivers fun but also introduces players to our ecosystem, 
+                                    laying the foundation for future conservation efforts.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">Expanding Our Reach</span>
+                                        <span class="year gradient-t green">PHASE #2</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="arrowo"></span>
+                                <h5 class="title">Launching on Major Exchanges</h5>
+                                <p class="description text-light-gray">
+                                    Phase 2 focuses on expanding the accessibility and visibility of Golden Cat Token 
+                                    by launching on multiple major cryptocurrency exchanges. This milestone will make 
+                                    our token available to a broader audience, driving global participation and 
+                                    enhancing liquidity for the ecosystem. Join us as we grow our community and make 
+                                    conservation efforts more impactful through increased engagement.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">Rewarding</span>
+                                        <span class="year gradient-t green">PHASE #3</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="arrowo"></span>
+                                <h5 class="title">GoldenCat Token Claim System</h5>
+                                <p class="description text-light-gray">
+                                    Phase 3 introduces the GoldenCat Token (GCT) rewards system, enabling players and community members to earn tokens for their engagement in games and activities. Participants will be able to claim their earned tokens through a dedicated claim page, ensuring seamless access to rewards. This marks a key step in empowering our community and fostering active involvement in the ecosystem.
+                                </p>
+                            </div>
+                        </div>                      
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">Expanding</span>
+                                        <span class="year gradient-t green">PHASE #4</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="arrowo"></span>
+                                <h5 class="title">New Games and Platforms</h5>
+                                <p class="description text-light-gray">
+                                    In Phase 4, the GoldenCat Token ecosystem evolves further with the launch of additional games and platforms. These new offerings will expand the ways players can engage, earn, and contribute to conservation efforts. By building a dynamic and interconnected ecosystem, we aim to continuously deliver rewarding experiences and impactful solutions for wildlife protection.
+                                </p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ##### Token Info Start ##### -->
+    <div class="section-padding-100-70 dotted-bg relative" id="features">
+        <div class="container">
+            <div class="section-heading text-center">
+                <div class="dream-dots justify-content-center fadeInUp" data-wow-delay="0.2s">
+                    <span class="gradient-t green">Our Tokenomics</span>
+                </div>
+                <h2 class="fadeInUp" data-wow-delay="0.3s">Our Tokenomics</h2>
+                <p class="fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+            </div>
+            <div class="row align-items-center">
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="who-we-contant mt-s">
+                        <ul class="token-information">
+                            <li>
+                                <img src="img/icons/t1.png" class="mon-img1" alt="">
+                                <h6><span class="gradient-t green mr-1">30%</span> Liquidity</h6>
+                            </li>
+                            <li>
+                                <img src="img/icons/t8.png" class="mon-img1" alt="">
+                                <h6><span class="gradient-t green mr-1">5%</span> dex</h6>
+                                <img src="img/icons/t3.png" class="mon-img2" alt="">
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="who-we-contant mt-s">
+                        <ul class="token-information">
+                            <li>
+                                <img src="img/icons/t2.png" class="mon-img1" alt="">
+                                <h6><span class="gradient-t green mr-1">5%</span> donation</h6>
+                            </li>
+                            <li>
+                                <img src="img/icons/t6.png" class="mon-img1" alt="">
+                                <h6><span class="gradient-t green mr-1">5%</span> marketing</h6>
+                                <img src="img/icons/t5.png" class="mon-img2" alt="">
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="who-we-contant mt-s">
+                        <ul class="token-information">
+                            <li>
+                                <img src="img/icons/t4.png" class="mon-img1" alt="">
+                                <h6><span class="gradient-t green mr-1">50%</span> presale</h6>
+                            </li>
+                            <li>
+                                <img src="img/icons/t7.png" class="mon-img1" alt="">
+                                <h6><span class="gradient-t green mr-1">0%</span> tax</h6>
+                                <img src="img/icons/t8.png" class="mon-img2" alt="">
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-md-4 col-md-6">
+                    <div class="who-we-contant mt-s">
+                        <ul class="token-information">
+                            <li>
+                                <img src="img/icons/t9.png" class="mon-img1" alt="">
+                                <h6><span class="gradient-t green mr-1">5%</span> Burn Tokens</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-padding-100-70 team-bg relative" id="team">
+        <div class="container">
+            <div class="section-heading text-center">
+                <div class="dream-dots justify-content-center fadeInUp" data-wow-delay="0.2s">
+                    <span class="gradient-t green">Our Team</span>
+                </div>
+                <h2 class="fadeInUp" data-wow-delay="0.3s">Meet Our Experts</h2>
+                <p class="fadeInUp" data-wow-delay="0.4s">Our dedicated team of experts brings together diverse skills in blockchain technology, gaming development, and wildlife conservation.</p>
+            </div>
+            
+            <!-- First Row - 3 Members -->
+            <div class="row justify-content-center">
+                <!-- Team Member 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="team-member-container box-shadow text-center mb-30 fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-thumb">
+                            <img src="img/icons/t01.png" alt="team member 1" class="rounded-circle">
+                        </div>
+                        <div class="team-info">
+                            <h5 class="w-text mt-15 mb-5">Sarah Johnson</h5>
+                            <p class="gradient-t green mb-15">CEO & Founder</p>
+                            <p class="member-desc">10+ years in blockchain and conservation projects</p>
+                            <div class="team-social-info">
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="team-member-container box-shadow text-center mb-30 fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-thumb">
+                            <img src="img/icons/t02.png" alt="team member 2" class="rounded-circle">
+                        </div>
+                        <div class="team-info">
+                            <h5 class="w-text mt-15 mb-5">Michael Chen</h5>
+                            <p class="gradient-t green mb-15">Lead Developer</p>
+                            <p class="member-desc">Expert in blockchain architecture and smart contracts</p>
+                            <div class="team-social-info">
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="team-member-container box-shadow text-center mb-30 fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-thumb">
+                            <img src="img/icons/t03.png" alt="team member 3" class="rounded-circle">
+                        </div>
+                        <div class="team-info">
+                            <h5 class="w-text mt-15 mb-5">Emily Martinez</h5>
+                            <p class="gradient-t green mb-15">Game Designer</p>
+                            <p class="member-desc">Specialist in gaming mechanics and user experience</p>
+                            <div class="team-social-info">
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Second Row - 2 Members -->
+            <div class="row justify-content-center">
+                <!-- Team Member 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="team-member-container box-shadow text-center mb-30 fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-thumb">
+                            <img src="img/icons/t04.png" alt="team member 4" class="rounded-circle">
+                        </div>
+                        <div class="team-info">
+                            <h5 class="w-text mt-15 mb-5">David Wilson</h5>
+                            <p class="gradient-t green mb-15">Conservation Expert</p>
+                            <p class="member-desc">Wildlife researcher with focus on Asian species</p>
+                            <div class="team-social-info">
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Team Member 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="team-member-container box-shadow text-center mb-30 fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-thumb">
+                            <img src="img/icons/t05.png" alt="team member 5" class="rounded-circle">
+                        </div>
+                        <div class="team-info">
+                            <h5 class="w-text mt-15 mb-5">Lisa Anderson</h5>
+                            <p class="gradient-t green mb-15">Marketing Director</p>
+                            <p class="member-desc">Digital marketing strategist with crypto expertise</p>
+                            <div class="team-social-info">
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <style>
+            .team-bg {
+                background: #fff;
+            }
+            
+            .team-member-container {
+                background: #fff;
+                border-radius: 10px;
+                padding: 30px 20px;
+                transition: all 0.3s ease;
+            }
+            
+            .team-member-container:hover {
+                transform: translateY(-5px);
+            }
+            
+            .team-thumb img {
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+                border: 5px solid #f5f5f5;
+            }
+            
+            .team-info {
+                margin-top: 20px;
+            }
+            
+            .member-desc {
+                font-size: 14px;
+                color: #666;
+                margin-bottom: 15px;
+            }
+            
+            .team-social-info a {
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                border-radius: 50%;
+                background: #f5f5f5;
+                color: #333;
+                margin: 0 5px;
+                transition: all 0.3s ease;
+            }
+            
+            .team-social-info a:hover {
+                background: #2ed573;
+                color: #fff;
+            }
+        </style>
+    </section>
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area bg-img" style="background-image: url(img/core-img/pattern.png);">
+        <div class="footer-content-area">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-lg-6 text-center text-lg-left">
+                        <!-- Project Name -->
+                        <div class="footer-logo fadeInUp" data-wow-delay="0.2s">
+                            <a href="#"><img draggable="false" src="img/core-img/logo_text_w.png" alt="Golden Cat Token" style="height: 80px; width: auto;"></a>
+                        </div>
+                        <p class="fadeInUp" data-wow-delay="0.3s">Golden Cat Token - A Project Connecting Gaming and Wildlife Conservation</p>
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-lg-right">
+                        <!-- Social Icons -->
+                        <div class="footer-social-info fadeInUp" data-wow-delay="0.4s">
+                            <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+
+    <!-- ########## All JS ########## -->
+    <!-- jQuery js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins.js"></script>
+
+    <script src="js/jquery.syotimer.min.js"></script>
+
+    <!-- script js -->
+    <script src="js/script.js"></script>
+    <script src="js/copy.js"></script>
+    <script>
+        function updateLogo() {
+            const logo = document.getElementById('navbar-logo');
+            const width = window.innerWidth;
+
+            if (width <= 990) {
+                logo.src = 'img/core-img/logo_text.png'; // 768px 
+            } else if (width > 990 && width <= 1124) {
+                logo.src = 'img/core-img/logo.png'; // 769 ~ 1124px
+            } else {
+                logo.src = 'img/core-img/logo_text.png'; // 1125px 
+            }
+        }
+
+        window.addEventListener('resize', updateLogo); 
+        window.addEventListener('DOMContentLoaded', updateLogo); 
+    </script>
+    
+
+</body>
+
+</html>
